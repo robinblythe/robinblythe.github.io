@@ -13,14 +13,14 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: > # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /emoji.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://robinblythe.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -29,7 +29,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -57,13 +57,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: robinblythe # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+twitter_username: RobinBlythe5 # your Twitter handle
+linkedin_username: robin-blythe-7428ba65 # your LinkedIn user name
 scholar_userid: bta8mcEAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-3643-4332 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: AGA-6551-2022 # your ID on Publons
+publons_id: # your ID on Publons
 research_gate_profile: Robin-Blythe # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -72,8 +72,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: Reach out on email or linkedin if you're interested in collaborating!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -90,7 +89,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar - leave blank to omit it from nav
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -245,7 +244,7 @@ max_author_limit: 3
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
