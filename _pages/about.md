@@ -7,11 +7,11 @@ subtitle:
   <a href='https://www.aushsi.org.au/'>Australian Centre for Health Services Innovation (AusHSI)</a> <br>
   Queensland University of Technology (QUT) <br>
   Brisbane, Australia<br>
-
+  <br>
   School of Mathematical Sciences <br>
   Queensland University of Technology (QUT) <br>
   Brisbane, Australia<br>
-
+  <br>
   Faculty of Health<br>
   Victoria University of Wellington<br>
   Wellington, New Zealand
